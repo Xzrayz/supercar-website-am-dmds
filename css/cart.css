@@ -64,10 +64,12 @@ h1{
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 50vh;
     padding: 25px;
+    margin-left: 15em;
+    size: 23em;
 }
 
 .container form {
@@ -85,12 +87,6 @@ h1{
 
 .container form .row .col {
     flex: 1 1 250px;
-}
-
-.col .title {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    padding-bottom: 5px;
 }
 
 .col .inputBox {
@@ -152,9 +148,9 @@ input::-webkit-outer-spin-button {
 }
 .images{
     float: right; 
-    margin-right: 45em;
+    margin-right: 20em;
     margin-top: 6em;
-    border: 0.1em solid white;
+    border: 0.3em solid white;
     
 }
 h2,
@@ -176,6 +172,7 @@ h3{
 }
 .alignleft {
     float: left;
+    
   }
   
   .alignright {
@@ -192,3 +189,9 @@ h3{
   hr{
     border: 2px solid white;
   }
+  h4:hover{
+    background-color: gray;
+  }
+.info{
+  position: relative;
+}
