@@ -43,94 +43,80 @@
         <a href="/html/config.html">Customize<img src="/images/icons/right-arrow.svg" alt="right-arrow" height="50"></a>
         <a href="/html/cart.html">Cart<img src="/images/icons/right-arrow.svg" alt="right-arrow" height="50"></a>
         <a href="/html/account.html">Account<img src="/images/icons/right-arrow.svg" alt="right-arrow" height="50"></a>
+        <a href="store.html">Trion Aesthetic</a>
     </div>
 </nav>
-            <section id="products">
-                <h2>Featured Products</h2>
-                <div class="product-container">
-                    <!-- Sample Product 1 -->
-                    <div class="product">
-                        <img src="shirt1.jpg" alt="Product 1">
-                        <h3>Stylish T-Shirt</h3>
-                        <p>$25.99</p>
-                        <button onclick="addToCart('Stylish T-Shirt', 25.99)">Add to Cart</button>
+                <nav>
+                    <a href="index.html">Trion Aesthetic</a>
+                    <a href="cart.html">Cart<span id="cartItemCount"></span></a>
+                </nav>
+            
+                <main>
+                    <header>
+                        <h1>Faux Cart Demo</h1>
+                        <p>Faux Cart is a JavaScript project designed to emulate shopping cart behavior on static websites. It uses
+                            local storage to emulate server side functionality.</p>
+                    </header>
+                    <h2>Products</h2>
+                    <div id="products">
+            
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 01</h3>
+                            <p class="prodDesc">All about product 01</p>
+                            <span class="prodPrice">1.25</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 02</h3>
+                            <p class="prodDesc">All about product 02</p>
+                            <span class="prodPrice">2.00</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 03</h3>
+                            <p class="prodDesc">All about product 03</p>
+                            <span class="prodPrice">3.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 04</h3>
+                            <p class="prodDesc">All about product 04</p>
+                            <span class="prodPrice">4.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 05</h3>
+                            <p class="prodDesc">All about product 05</p>
+                            <span class="prodPrice">5.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 06</h3>
+                            <p class="prodDesc">All about product 06</p>
+                            <span class="prodPrice">6.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 07</h3>
+                            <p class="prodDesc">All about product 07</p>
+                            <span class="prodPrice">7.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 08</h3>
+                            <p class="prodDesc">All about product 08</p>
+                            <span class="prodPrice">8.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
+                            <h3 class="prodName">Product 09</h3>
+                            <p class="prodDesc">All about product 09</p>
+                            <span class="prodPrice">9.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
+                        </div>
+            
                     </div>
-                    <!-- Sample Product 2 -->
-                    <div class="product">
-                        <img src="hat1.jpg" alt="Product 2">
-                        <h3>Cool Hat</h3>
-                        <p>$15.99</p>
-                        <button onclick="addToCart('Cool Hat', 15.99)">Add to Cart</button>
-                    </div>
-                    <!-- More products can be added here -->
-                </div>
-            </section>
-        
-            <main>
-                <header>
-                    <h1>Faux Cart Demo</h1>
-                    <p>Faux Cart is a JavaScript project designed to emulate shopping cart behavior on static websites. It uses
-                        local storage to emulate server side functionality.</p>
-                </header>
-                <h2>Products</h2>
-                <div id="products">
-        
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 01</h3>
-                        <p class="prodDesc">All about product 01</p>
-                        <span class="prodPrice">1.25</span><a href="" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 02</h3>
-                        <p class="prodDesc">All about product 02</p>
-                        <span class="prodPrice">2.00</span><a href="" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 03</h3>
-                        <p class="prodDesc">All about product 03</p>
-                        <span class="prodPrice">3.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 04</h3>
-                        <p class="prodDesc">All about product 04</p>
-                        <span class="prodPrice">4.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 05</h3>
-                        <p class="prodDesc">All about product 05</p>
-                        <span class="prodPrice">5.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 06</h3>
-                        <p class="prodDesc">All about product 06</p>
-                        <span class="prodPrice">6.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 07</h3>
-                        <p class="prodDesc">All about product 07</p>
-                        <span class="prodPrice">7.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 08</h3>
-                        <p class="prodDesc">All about product 08</p>
-                        <span class="prodPrice">8.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-                    <div class="product">
-                        <img src="https://picsum.photos/seed/picsum/500" alt="Demo Image" class="prodImage">
-                        <h3 class="prodName">Product 09</h3>
-                        <p class="prodDesc">All about product 09</p>
-                        <span class="prodPrice">9.00</span><a href="#" class="addToCart prodBtn">Add to Cart</a>
-                    </div>
-        
-                </div>
+                </main>
             </main>
 
 
